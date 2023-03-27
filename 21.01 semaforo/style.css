@@ -1,0 +1,38 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    
+}
+
+main{
+    background: #ffffff;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px;
+    border-radius: 5px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+   margin-top: 21px;
+   display: flex;
+}
+
+.btn button {
+    margin: 5px;
+    font-size: 12px;
+}
+
+
+
