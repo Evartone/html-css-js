@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: aqua;
+}
+
+main{
+    
+    align-items: center;
+    text-align: center;
+    margin-top: 30px
+    ;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: inset;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    color: red;
+    margin-top: 10px;
+    width: 80px;
+    height: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.result{
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+    
+}
