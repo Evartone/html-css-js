@@ -1,0 +1,120 @@
+
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      
+      .container {
+        width: 500px;
+        max-width: 90%;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      
+      header {
+        background-color: #563d7c;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 20px;
+      }
+      
+      .the_form {
+        padding: 20px;
+      }
+      
+      .form-control {
+        margin-bottom: 20px;
+      }
+      
+      .form-control label {
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #444;
+      }
+      
+      .form-control input[type="text"],
+      .form-control input[type="email"],
+      .form-control textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 2px solid #ddd;
+        background-color: #f9f9f9;
+        color: #444;
+        font-size: 16px;
+        font-weight: 500;
+        transition: border-color 0.3s ease-in-out;
+      }
+      
+      .form-control input[type="text"]:focus,
+      .form-control input[type="email"]:focus,
+      .form-control textarea:focus {
+        border-color: #563d7c;
+      }
+      
+      .form-control.small label {
+        font-size: 14px;
+        margin-bottom: 3px;
+      }
+      
+      .form-control.small input[type="text"],
+      .form-control.small input[type="email"],
+      .form-control.small textarea {
+        font-size: 14px;
+        padding: 8px;
+      }
+      
+      .form-control.success input[type="text"],
+      .form-control.success input[type="email"],
+      .form-control.success textarea {
+        border-color: #48bb78;
+      }
+      
+      .form-control.error input[type="text"],
+      .form-control.error input[type="email"],
+      .form-control.error textarea {
+        border-color: #f56565;
+      }
+      
+      button {
+        background-color: #563d7c;
+        color: #fff;
+        width: 100%;
+        border-radius: 6px;
+        padding: 12px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      button:hover {
+        background-color: #6b46c1;
+      }
+      
+      button:focus {
+        outline: none;
+      }
+      
+      label {
+        font-size: 22px;
+        font-weight: 700;
+        color: #563d7c;
+    }
+      
