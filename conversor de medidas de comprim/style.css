@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #141e30, #242b55);
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  #0077CC ;
+  }
+  
+  .input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .input-label {
+    font-size: 24px;
+    margin-right: 10px;
+    width: 30%;
+    text-align: right;
+    color: #333333;
+  }
+  
+  input {
+    border: none;
+    border-bottom: 2px solid #CCCCCC;
+    outline: none;
+    background: transparent;
+    color: #333333;
+    font-size: 24px;
+    padding: 5px;
+    width: 70%;
+  }
+  
+  button {
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077CC;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  span {
+    color: #FF0000;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  select{
+    padding: 5px;
+  }
+
+h2{
+  font-size: 20px;
+  color: #0077CC;
+}
+
+footer p{
+  font-size: 12px;
+ 
+}
+
+  @media (max-width: 468px) {
+
+    .container {
+      border-radius: 7px;
+      width: 60%; 
+    }
+
+    h3{
+      font-size: 16px;
+    }
+
+    button{
+      font-size: 14px;
+    }
+
+    #result{
+      justify-content: center;
+    }
+
+    span{
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+    }
+    }
+
+  
